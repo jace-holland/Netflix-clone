@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: black;
+}
+
+::-webkit-scrollbar{
+    background: #ddd;
+    width: 12px;
+}
+
+::-webkit-scrollbar-track{
+    box-shadow: inset o 10px #00000070;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(125deg, #3498db, #34495e);
+}
+
+
+.imgBx{
+    width: 600px;
+    height: 400px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+p{
+    color:#fff;
+}
+
+h1{
+    color: #fff;
+}
+
+/* Home section */
+
+header{
+    position: relative;
+    max-width: 100%;
+    height: 100vh;
+    border-bottom: 15px solid #555;
+    background: url(/img/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header .navbar .logo{
+    width: 100px;
+    height: 63px;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 9px;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    margin-right: 0.5rem;
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 3px rgba(0,0,0,0.45);
+    cursor: pointer;
+    background: rgb(36, 3, 73);
+}
+
+header .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+header .container .wrapper h1{
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+header .container .wrapper p{
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 5px solid #555;
+    padding-left: 5px;
+    margin-bottom: 26px;
+}
+
+header .container .wrapper p{
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 14px;
+}
+
+header .container .wrapper input[type = "email"]{
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-right: 220px;
+   padding-left: 5px;
+} 
+
+header .container .wrapper input[type = "email"]::placeholder{
+    font-size: 16px;
+    cursor: pointer;
+}
+
+header .container .wrapper input[type = "email"]:focus-within  {
+    box-shadow: 0px 0.2em 2.5em #c4c4c4;
+}
+
+header .container .wrapper a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 60px;
+    border-radius: 9px;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+    background: rgb(36, 3, 73);
+}
+
+
+/* Tv section */
+.tv-section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 50px;
+    grid-gap: 20px;
+    width: 100%;
+}
+
+.tv-section .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tv-section .text h1{
+    font-size: 50px;
+    padding: 20px 0;
+    font-weight: 600;
+}
+
+.tv-section .text p{
+    font-size: 18px;
+    font-weight: 200;
+}
+
+/* Download Section */
+.download-section{
+    display: grid;
+    border-top: 15px solid #555;
+    grid-template-columns: 50% 50%;
+    padding: 50px;
+    grid-gap: 20px;
+    width: 100%;
+}
+
+.download-section .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-section .text h1{
+    font-size: 50px;
+    padding: 20px 0;
+    font-weight: 600;
+}
+
+.download-section .text p{
+    font-size: 18px;
+    font-weight: 200;
+}
+
+/* watch section */
+.watch-section{
+    display: grid;
+    border-top: 15px solid #555;
+    grid-template-columns: 50% 50%;
+    padding: 50px;
+    grid-gap: 20px;
+    width: 100%;
+}
+
+.watch-section .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.watch-section .text h1{
+    font-size: 60px;
+    padding: 20px 0;
+    font-weight: 600;
+}
+
+.watch-section .text p{
+    font-size: 18px;
+    font-weight: 200;
+}
+/* anywhere section */
+.anywhere-section{
+    display: grid;
+    border-top: 15px solid #555;
+    grid-template-columns: 50% 50%;
+    padding: 50px;
+    grid-gap: 20px;
+    width: 100%;
+}
+
+.anywhere-section .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anywhere-section .text h1{
+    font-size: 60px;
+    padding: 20px 0;
+    font-weight: 600;
+}
+
+.anywhere-section .text p{
+    font-size: 18px;
+    font-weight: 200;
+}
+
+/* Profile section */
+.profile-section{
+    display: grid;
+    border-top: 15px solid #555;
+    grid-template-columns: 50% 50%;
+    padding: 50px;
+    grid-gap: 20px;
+    width: 100%;
+}
+
+.profile-section .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-section .text h1{
+    font-size: 60px;
+    padding: 20px 0;
+    font-weight: 600;
+}
+
+.profile-section .text p{
+    font-size: 18px;
+    font-weight: 200;
+}
+
+/* Questions */
+.questions{
+    position: relative;
+    border-top: solid #555 15px;
+    padding: 0 200px;
+}
+
+.questions .text h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 20px;
+}
+
+.questions .card{
+    width: 100%;
+    height: 90px;
+    background: #555;
+    color: #fff;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 3px rgba(0, 0,0, 0.3);
+}
+
+.questions .card h4{
+    padding: 10px 0;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.questions .form{
+    padding-left: 0px 50px;
+    margin-bottom: 30px;
+}
+
+.questions .form h3{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 20px;
+    color: #fff;
+}
+
+.questions .form input{
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-right: 220px;
+   padding-left: 5px;
+   margin-left: 30px;
+}
+
+.questions .form input::placeholder{
+    font-size: 20px;
+}
+
+.questions .form a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 60px;
+    border-radius: 9px;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+    background: rgb(36, 3, 73);
+}
+
+/* footer */
+.footer{
+    border-top:  15px solid #555;
+    padding: 40px 100px;
+}
+
+
+#space{
+    padding: 37px 0;
+    color: #555;
+}
+
+.footer .text a{
+    color: #555;
+}
+
+.footer .wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+}
+
+.footer .wrapper .row a{
+    padding: 57px 0;
+    color: #555;
+}
